@@ -46,7 +46,7 @@ const About = () => {
                                 </div>
                                 <div className="ms-3">
                                     <p className="mb-2">Email us</p>
-                                    <h5 className="mb-0">info@example.com</h5>
+                                    <h5 className="mb-0">bhargavshukla483@gmail.com</h5>
                                 </div>
                             </div>
                         </div>
@@ -57,7 +57,7 @@ const About = () => {
                                 </div>
                                 <div className="ms-3">
                                     <p className="mb-2">Call us</p>
-                                    <h5 className="mb-0">+012 345 6789</h5>
+                                    <h5 className="mb-0">+91 9327190323</h5>
                                 </div>
                             </div>
                         </div>
