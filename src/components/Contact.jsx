@@ -47,7 +47,7 @@ const Contact = () => {
             <div className="row mb-5">
                 <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
                   
-                    <iFrame className="w-100"
+                    <iFrame className="w-100 h-100"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1840.0139888903848!2d71.66306351244059!3d22.727201460314834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395941007401fc4d%3A0x219c1cbdf7b0dbc9!2sSpin%20Technology!5e0!3m2!1sen!2sin!4v1707459896944!5m2!1sen!2sin"
                         frameborder="0" style={{minHeight: "450px;", border:"0;"}} allowFullScreen="" aria-hidden="false"
                         tabindex="0"></iFrame>
