@@ -22,7 +22,7 @@ const Navbar = () => {
             <div className="col-lg-6 text-end">
                 <div className="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
                     <span className="fs-5 fw-bold me-2"><i className="fa fa-phone-alt me-2"></i>Call Us:</span>
-                    <span className="fs-5 fw-bold">+012 345 6789</span>
+                    <span className="fs-5 fw-bold">+91 9327190323</span>
                 </div>
             </div>
         </div>

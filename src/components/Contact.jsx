@@ -13,8 +13,8 @@ const Contact = () => {
                             <i className="fa fa-phone-alt fa-2x text-primary"></i>
                         </div>
                         <h4 className="mb-3">Phone Number</h4>
-                        <p className="mb-2">+012 345 67890</p>
-                        <p className="mb-4">+012 345 67890</p>
+                        <p className="mb-2">+91 9327190323</p>
+                        <p className="mb-4">+91 9327190323</p>
                         <a className="btn btn-primary px-4" href="tel:+0123456789">Call Now <i
                                 className="fa fa-arrow-right ms-2"></i></a>
                     </div>
@@ -25,7 +25,7 @@ const Contact = () => {
                             <i className="fa fa-envelope-open fa-2x text-primary"></i>
                         </div>
                         <h4 className="mb-3">Email Address</h4>
-                        <p className="mb-2">info@example.com</p>
+                        <p className="mb-2">bhargavshukla483@gmail.com</p>
                         <p className="mb-4">support@example.com</p>
                         <a className="btn btn-primary px-4" href="mailto:info@example.com">Email Now <i
                                 className="fa fa-arrow-right ms-2"></i></a>
@@ -37,17 +37,20 @@ const Contact = () => {
                             <i className="fa fa-map-marker-alt fa-2x text-primary"></i>
                         </div>
                         <h4 className="mb-3">Office Address</h4>
-                        <p className="mb-2">+012 345 67890</p>
-                        <p className="mb-4">+012 345 67890</p>
+                        <p className="mb-2">Spin Technology , New 80 Feet Rd,</p>
+                        <p className="mb-4"> Ambawadi Phase 4, Udhyog Nagar, Surendranagar, Gujarat 363001</p>
                         <a className="btn btn-primary px-4" href="https://goo.gl/maps/FsznshxgnULBGgkN9"
                             target="blank">Direction <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
             <div className="row mb-5">
-                <div className="col-12 wow fadeInUp" data-wow-delay="0.1s">
-                  
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1840.0139888903848!2d71.66306351244059!3d22.727201460314834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395941007401fc4d%3A0x219c1cbdf7b0dbc9!2sSpin%20Technology!5e0!3m2!1sen!2sin!4v1707459896944!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div className="col-12 wow fadeInUp" data-wow-delay="0.1s" >
+                    <iFrame className="w-100"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1840.0139888903848!2d71.66306351244059!3d22.727201460314834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395941007401fc4d%3A0x219c1cbdf7b0dbc9!2sSpin%20Technology!5e0!3m2!1sen!2sin!4v1707459896944!5m2!1sen!2sin"
+                        frameborder="0" style={{minHeight: "450px;", border:"0;", height:"100%"}} allowFullScreen="" aria-hidden="false"
+                        tabindex="0"></iFrame>
+
                 </div>
             </div>
             <div className="row g-5">
@@ -65,7 +68,7 @@ const Contact = () => {
                                 </div>
                                 <div className="ms-3">
                                     <h6>Call Us</h6>
-                                    <span>+012 345 67890</span>
+                                    <input style={{border:"0",backgroundColor:"white"}} type="tel" value="+91 9327190323" disabled/>
                                 </div>
                             </div>
                         </div>
@@ -76,7 +79,8 @@ const Contact = () => {
                                 </div>
                                 <div className="ms-3">
                                     <h6>Mail Us</h6>
-                                    <span>info@example.com</span>
+                                    <input style={{border:"0",backgroundColor:"white"}} type="email" value="bhargavshukla483@gmail.com" disabled/>
+                                     
                                 </div>
                             </div>
                         </div>
