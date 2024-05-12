@@ -1,9 +1,9 @@
 import React from "react";
-import Navbar from "./components/Navbar"
-import Serviceweb from "./Serviceweb";
-import Home from "./Home"
-import Aboutweb from "./Aboutweb";
-import Ourteamweb from "./Ourteamweb";
+import Navbar from "./components/Navbar.jsx"
+import Serviceweb from "./Serviceweb.jsx";
+import Home from "./Home.jsx"
+import Aboutweb from "./Aboutweb.jsx";
+import Ourteamweb from "./Ourteamweb.jsx";
 import Contactweb from "./Contactweb.jsx";
 import { BrowserRouter,Route,Routes} from "react-router-dom";
 import Login from "./components/Login.jsx";
