@@ -56,7 +56,7 @@ const Footer = () => {
     </div>
     <div className="container-fluid copyright bg-dark py-4">
         <div className="container text-center">
-            <p className="mb-2">Copyright &copy; <a className="fw-semi-bold" href="5#">Spin Technology Shukla Bhargav</a>, All Right Reserved.
+            <p className="mb-2">Copyright &copy; <a className="fw-semi-bold" href="5#">Your Site Name</a>, All Right Reserved.
             </p>
             
         </div>

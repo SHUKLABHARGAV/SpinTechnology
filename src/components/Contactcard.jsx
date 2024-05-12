@@ -4,18 +4,18 @@ import emailjs from '@emailjs/browser';
 
 const Contactcard = () => {
 
-    const form = useRef();
+        const form = useRef();
 
-    const sendEmail = (e) => {
-      e.preventDefault();
-  
-      emailjs.sendForm('service_5lz6lri', 'template_w9vtipg', form.current, 'xQUMh834MpVUDinnH')
-        .then((result) => {
-            console.log(result.text);
-        }, (error) => {
-            console.log(error.text);
-        });
-    };
+        const sendEmail = (e) => {
+        e.preventDefault();
+    
+        emailjs.sendForm('service_5lz6lri', 'template_w9vtipg', form.current, 'xQUMh834MpVUDinnH')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
+        };
 
     
     return (

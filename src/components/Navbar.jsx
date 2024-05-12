@@ -1,4 +1,6 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
+ 
  
 import {Link} from "react-router-dom"
  
@@ -31,7 +33,7 @@ const Navbar = () => {
      
     <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <Link to="/" className="navbar-brand ps-5 me-0">
-            <h1 className="text-white m-0">Spin Technology</h1>
+            <h1 className="text-white m-0">Spin Industries</h1>
         </Link>
         <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span className="navbar-toggler-icon"></span>
@@ -40,16 +42,19 @@ const Navbar = () => {
             <div className="navbar-nav ms-auto p-4 p-lg-0">
                 <Link to="/" className="nav-item nav-link active">Home</Link>
                  
-                <Link to="/Aboutweb" className="nav-item nav-link"  >About</Link>
+                <Link to="/Aboutweb" id='Home' className="nav-item nav-link"  >About</Link>
                 <Link to="/Serviceweb" className="nav-item nav-link">Sevice</Link>
                 <Link to="/Ourteamweb" className="nav-item nav-link">Our Team</Link>
+                <Link to="/Ourteamweb" className="nav-item nav-link">Our Products</Link>
                 <Link to="Testimonial" className="nav-item nav-link">TestiNomials</Link>
                 <Link to="/Contactweb" className="nav-item nav-link">Contact</Link>
             </div>
             <a href="t77" className="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
         </div>
     </nav>
-    <a href="#d" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i className="bi bi-arrow-up"></i></a>
+    <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" value="Home" >
+        <i className="bi bi-arrow-up"></i>
+        </a>
 
      
     </>

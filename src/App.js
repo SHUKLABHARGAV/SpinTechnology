@@ -6,6 +6,7 @@ import Aboutweb from "./Aboutweb";
 import Ourteamweb from "./Ourteamweb";
 import Contactweb from "./Contactweb.jsx";
 import { BrowserRouter,Route,Routes} from "react-router-dom";
+import Login from "./components/Login.jsx";
  
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     <Route exact path="/Aboutweb" element={<Aboutweb/>} />
     <Route exact path="/Ourteamweb" element={<Ourteamweb/>} />
     <Route exact path="/Contactweb" element={<Contactweb/>} />
+    <Route exact path="/Login" element={<Login />} />
    
     </Routes>
     </BrowserRouter>
