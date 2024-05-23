@@ -16,9 +16,7 @@ function App() {
   const isLoginPath = useMemo(() => {
     return pathname === '/login'
   },[pathname])
-
   return (
-
     <>
       {!isLoginPath && <Navbar />}
       <Routes>
