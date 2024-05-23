@@ -13,7 +13,7 @@ body {
   }
   /********** Template CSS **********/
   :root {
-    --primary: #FF5E14;
+    --primary: #0b6ab2;
     --secondary: #5F656F;
     --light: #F5F5F5;
     --dark: #02245B;
@@ -680,7 +680,7 @@ body {
   
   /*** Footer ***/
   .footer {
-    color: #B0B9AE;
+    color: #fafbf9;
   }
   
   .footer .btn.btn-link {
@@ -688,7 +688,7 @@ body {
     margin-bottom: 5px;
     padding: 0;
     text-align: left;
-    color: #B0B9AE;
+    color: #f9fef8;
     font-weight: normal;
     text-transform: capitalize;
     transition: .3s;
@@ -709,6 +709,6 @@ body {
   }
   
   .copyright {
-    color: #B0B9AE;
+    color: #f6faf4;
     border-top: 1px solid rgba(255, 255, 255, .1);
   }

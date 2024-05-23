@@ -15,7 +15,7 @@ const Carousel = () => {
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
-                                    <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">2 Years
+                                    <p className="fs-5 fw-medium   text-uppercase animated slideInRight "  >2 Years
                                         of Working Experience</p>
                                     <h1 className="display-1 text-white mb-5 animated slideInRight">Spindel Manufacturing industry</h1>
                                     <a href="u" className="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
@@ -30,7 +30,7 @@ const Carousel = () => {
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
-                                    <p className="fs-5 fw-medium text-primary text-uppercase animated slideInRight">25 Years
+                                    <p className="fs-5 fw-medium  text-uppercase animated slideInRight">25 Years
                                         of Working Experience</p>
                                     <h1 className="display-1 text-white mb-5 animated slideInRight">The Best Reliable
                                         Industry Solution</h1>

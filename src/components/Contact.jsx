@@ -9,38 +9,38 @@ const Contact = () => {
             <div className="row g-5 justify-content-center mb-5">
                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div className="bg-light text-center h-100 p-5">
-                        <div className="btn-square bg-white rounded-circle mx-auto mb-4" style={{width: "90px;", height: "90px;"}}>
-                            <i className="fa fa-phone-alt fa-2x text-primary"></i>
+                        <div className="btn-square  rounded-circle mx-auto mb-4" style={{width: "90px;", height: "90px;",backgroundColor:'#0b6ab2',padding:'10%',color:'white'}}>
+                            <i className="fa fa-phone-alt fa-2x  " style={{ color:'white'}}></i>
                         </div>
                         <h4 className="mb-3">Phone Number</h4>
                         <p className="mb-2">+91 9327190323</p>
                         <p className="mb-4">+91 9327190323</p>
-                        <a className="btn btn-primary px-4" href="tel:+0123456789">Call Now <i
+                        <a className="btn   px-4" style={{ backgroundColor:'#0b6ab2',color:'white'}} href="tel:+0123456789">Call Now <i
                                 className="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div className="bg-light text-center h-100 p-5">
-                        <div className="btn-square bg-white rounded-circle mx-auto mb-4" style={{width: "90px;", height: "90px;"}}>
-                            <i className="fa fa-envelope-open fa-2x text-primary"></i>
+                        <div className="btn-square   rounded-circle mx-auto mb-4" style={{width: "90px;", height: "90px;",backgroundColor:'#0b6ab2',padding:'10%',color:'white'}}>
+                            <i className="fa fa-envelope-open fa-2x "></i>
                         </div>
                         <h4 className="mb-3">Email Address</h4>
                         <p className="mb-2">bhargavshukla483@gmail.com</p>
                         <p className="mb-4">support@example.com</p>
-                        <a className="btn btn-primary px-4" href="mailto:info@example.com">Email Now <i
+                        <a className="btn b  px-4" style={{ backgroundColor:'#0b6ab2',color:'white'}}href="mailto:info@example.com">Email Now <i
                                 className="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div className="bg-light text-center h-100 p-5">
-                        <div className="btn-square bg-white rounded-circle mx-auto mb-4" style={{width: "90px;", height: "90px;"}}>
-                            <i className="fa fa-map-marker-alt fa-2x text-primary"></i>
+                        <div className="btn-square  rounded-circle mx-auto mb-4" style={{width: "90px;", height: "90px;",backgroundColor:'#0b6ab2',padding:'10%',color:'white'}}>
+                            <i className="fa fa-map-marker-alt fa-2x  "></i>
                         </div>
                         <h4 className="mb-3">Office Address</h4>
                         <p className="mb-2">Spin Technology , New 80 Feet Rd,</p>
                         <p className="mb-4"> Ambawadi Phase 4, Udhyog Nagar, Surendranagar, Gujarat 363001</p>
                         <a className="btn btn-primary px-4" href="https://goo.gl/maps/FsznshxgnULBGgkN9"
-                            target="blank">Direction <i class="fa fa-arrow-right ms-2"></i></a>
+                            target="blank" style={{ backgroundColor:'#0b6ab2',color:'white'}}>Direction <i class="fa fa-arrow-right ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -48,7 +48,7 @@ const Contact = () => {
                 <div className="col-12 wow fadeInUp" data-wow-delay="0.1s" >
                     <iFrame className="w-100"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1840.0139888903848!2d71.66306351244059!3d22.727201460314834!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395941007401fc4d%3A0x219c1cbdf7b0dbc9!2sSpin%20Technology!5e0!3m2!1sen!2sin!4v1707459896944!5m2!1sen!2sin"
-                        frameborder="0" style={{minHeight: "450px;", border:"0;", height:"100%"}} allowFullScreen="" aria-hidden="false"
+                        frameborder="0" style={{minHeight: "450px;", border:"0;", height:"200px"}} allowFullScreen="" aria-hidden="false"
                         tabindex="0"></iFrame>
 
                 </div>
@@ -63,10 +63,10 @@ const Contact = () => {
                     <div className="row g-4">
                         <div className="col-6">
                             <div className="d-flex">
-                                <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
+                                <div className="flex-shrink-0 btn-square   rounded-circle" style={{ backgroundColor:'#0b6ab2',color:'white'}}>
                                     <i className="fa fa-phone-alt text-white"></i>
                                 </div>
-                                <div className="ms-3">
+                                <div className="ms-3" >
                                     <h6>Call Us</h6>
                                     <input style={{border:"0",backgroundColor:"white"}} type="tel" value="+91 9327190323" disabled/>
                                 </div>
@@ -74,7 +74,7 @@ const Contact = () => {
                         </div>
                         <div className="col-6">
                             <div className="d-flex">
-                                <div className="flex-shrink-0 btn-square bg-primary rounded-circle">
+                                <div className="flex-shrink-0 btn-square  rounded-circle" style={{ backgroundColor:'#0b6ab2',color:'white'}}>
                                     <i className="fa fa-envelope text-white"></i>
                                 </div>
                                 <div className="ms-3">

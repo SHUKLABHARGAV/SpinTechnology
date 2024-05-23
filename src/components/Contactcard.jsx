@@ -51,7 +51,7 @@ const Contactcard = () => {
                             </div>
                         </div>
                         <div className="col-12">
-                            <button className="btn btn-primary py-3 px-5"  value="Send" type="submit">Send Message</button>
+                            <button className="btn   py-3 px-5"  value="Send" type="submit" style={{ backgroundColor:'#0b6ab2',color:'white'}}>Send Message</button>
                         </div>
                     </div>
                 </form>

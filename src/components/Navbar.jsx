@@ -9,7 +9,7 @@ const Navbar = () => {
   
      
  
-    <div className="container-fluid bg-dark px-0">
+    <div className="container-fluid px-0" style={{backgroundColor:' #0b6ab2'}}>
         <div className="row g-0 d-none d-lg-flex">
             <div className="col-lg-6 ps-5 text-start">
                 <div className="h-100 d-inline-flex align-items-center text-white">
@@ -48,10 +48,10 @@ const Navbar = () => {
                 <Link to="/Testimonial" className="nav-item nav-link">TestiNomials</Link>
                 <Link to="/Contactweb" className="nav-item nav-link">Contact</Link>
             </div>
-            <a href="t77" className="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>
+            <a href="t77" className="btn  btn-light px-3 d-none d-lg-block" style={{ backgroundColor:'#0b6ab2',color:'white'}}>Get A Quote</a>
         </div>
     </nav>
-    <a href="#" className="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top" value="Home" >
+    <a href="#" className="btn btn-lg   btn-lg-square rounded-circle back-to-top" value="Home"  style={{ backgroundColor:'#0b6ab2',color:'white'}}>
         <i className="bi bi-arrow-up"></i>
         </a>
 

@@ -20,7 +20,7 @@ const About = () => {
                     </div>
                 </div>
                 <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
-                    <p className="fw-medium text-uppercase text-primary mb-2">About Us</p>
+                    <p className="fw-medium text-uppercase   mb-2" style={{   color:'#0b6ab2', }}>About Us</p>
                     <h1 className="display-5 mb-4">We Are Leader In Spindel Market</h1>
                     <p className="mb-4">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
                         eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
