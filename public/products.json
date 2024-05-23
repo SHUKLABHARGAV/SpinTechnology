@@ -44,7 +44,7 @@
       },
       {
         "id": 2,
-        "imageUrl": "images/product2.png",
+        "imageUrl": "images/product2.png" ,
         "altText": "Placeholder Image 2",
         "title":"Product 8"
       }
