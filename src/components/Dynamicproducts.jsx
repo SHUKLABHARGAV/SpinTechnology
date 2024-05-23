@@ -2,9 +2,6 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './product.css'
-
- 
-
 const DynamicImage = ({ src, alt, width, height, className,title ,layout }) => {
   return (
    
