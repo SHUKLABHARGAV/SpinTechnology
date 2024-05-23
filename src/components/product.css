@@ -57,7 +57,7 @@
   
     .dynamic-image h2 {
       font-size: 1.2rem;
-    }
+    } 
   }
   .dynamic-image:hover {
     transform: scale(1.05); 
