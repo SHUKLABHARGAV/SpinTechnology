@@ -61,6 +61,12 @@
   }
   .dynamic-image:hover {
     transform: scale(1.05); 
-    background-color: #f1f1f1;/* Increase size on hover */
+    background-color:  #0b6ab2 !important;
+    padding: 1%;
+    
+   
+  }
+  .row-container:hover{
+    background-color:  #0b6ab2,!important
   }
   

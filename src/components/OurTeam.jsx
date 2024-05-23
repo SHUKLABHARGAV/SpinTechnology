@@ -1,9 +1,25 @@
-import React from 'react'
-import img1 from "./img/team-1.jpg"
+import React,{ useState, useEffect } from 'react'
+import img1 from "./img/1.png"
 import img2 from "./img/team-2.jpg"
 import img3 from "./img/team-3.jpg"
+ 
 
 const OurTeam = () => {
+    const [teamData, setTeamData] = useState([]);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        const response = await fetch('../team.json');
+        const data = await response.json();
+        setTeamData(data);
+      } catch (error) {
+        console.error('Error fetching data:', error);
+      }
+    };
+
+    fetchData();
+  }, []);
   return (
     <>
       <div className="container-xxl py-5">
@@ -13,75 +29,30 @@ const OurTeam = () => {
                 <h1 className="display-5 mb-5">Dedicated Team Members</h1>
             </div>
             <div className="row g-4">
-                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div className="team-item">
-                        <img className="img-fluid" src={img1} alt=""/>
-                        <div className="d-flex">
-                            <div className="flex-shrink-0 btn-square bg-primary" style={{width: "90px;",height: "90px;"}}>
-                                <i className="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div className="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style={{height:" 90px;"}}>
-                                <h5>Rob Miller</h5>
-                                <span className="text-primary">CEO & Founder</span>
-                                <div className="team-social">
-                                    <a className="btn btn-square btn-dark rounded-circle mx-1" href="s"><i
-                                            className="fab fa-facebook-f"></i></a>
-                                    <a className="btn btn-square btn-dark rounded-circle mx-1" href="a"><i
-                                            className="fab fa-twitter"></i></a>
-                                    <a class="btn btn-square btn-dark rounded-circle mx-1" href="a"><i
-                                            className="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+             
+                {teamData.map(member => (
+        <div key={member.id} className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+          <div className="team-item">
+            <img className="img-fluid"   src={member.imgSrc}
+      alt={member.name}
+   />
+            <div className="d-flex">
+              <div className="flex-shrink-0 btn-square bg-dark" style={{ width: "90px", height: "90px" }}>
+                <i className="fa fa-2x fa-share text-white"></i>
+              </div>
+              <div className="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4" style={{ height: "90px" }}>
+                <h5>{member.name}</h5>
+                <span className="text-primary">{member.title}</span>
+                <div className="team-social">
+                  <a className="btn btn-square btn-dark rounded-circle mx-1" href={member.facebookLink}><i className="fab fa-facebook-f"></i></a>
+                  <a className="btn btn-square btn-dark rounded-circle mx-1" href={member.twitterLink}><i className="fab fa-twitter"></i></a>
+                  <a className="btn btn-square btn-dark rounded-circle mx-1" href={member.instagramLink}><i className="fab fa-instagram"></i></a>
                 </div>
-                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div className="team-item">
-                        <img className="img-fluid" src={img2} alt=""/>
-                        <div className="d-flex">
-                            <div className="flex-shrink-0 btn-square bg-primary" style={{width: "90px;" ,height: "90px;"}}>
-                                <i className="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div className="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style={{height: "90px;"}}>
-                                <h5>Adam Crew</h5>
-                                <span className="text-primary">Project Manager</span>
-                                <div className="team-social">
-                                    <a className="btn btn-square btn-dark rounded-circle mx-1" href="a"><i
-                                            className="fab fa-facebook-f"></i></a>
-                                    <a className="btn btn-square btn-dark rounded-circle mx-1" href="a"><i
-                                            className="fab fa-twitter"></i></a>
-                                    <a className="btn btn-square btn-dark rounded-circle mx-1" href="a"><i
-                                            className="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div className="team-item">
-                        <img className="img-fluid" src={img3} alt=""/>
-                        <div class="d-flex">
-                            <div className="flex-shrink-0 btn-square bg-primary" style={{width: "90px;", height: "90px;"}}>
-                                <i className="fa fa-2x fa-share text-white"></i>
-                            </div>
-                            <div className="position-relative overflow-hidden bg-light d-flex flex-column justify-content-center w-100 ps-4"
-                                style={{height: "90px;"}}>
-                                <h5>Peter Farel</h5>
-                                <span className="text-primary">Engineer</span>
-                                <div className="team-social">
-                                    <a className="btn btn-square btn-dark rounded-circle mx-1" href="g"><i
-                                            className="fab fa-facebook-f"></i></a>
-                                    <a className="btn btn-square btn-dark rounded-circle mx-1" href="g"><i
-                                            className="fab fa-twitter"></i></a>
-                                    <a className="btn btn-square btn-dark rounded-circle mx-1" href="c"><i
-                                            className="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      ))}
             </div>
         </div>
     </div> 

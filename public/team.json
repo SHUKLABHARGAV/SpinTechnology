@@ -1,0 +1,59 @@
+[
+    {
+      "id": 1,
+      "imgSrc": "/public/images/Dhruv.png",
+      "name": "Dhruv Parmar",
+      "title": "CEO & Founder",
+      "facebookLink": "https://facebook.com/rob",
+      "twitterLink": "https://twitter.com/rob",
+      "instagramLink": "https://instagram.com/rob"
+    },
+    {
+      "id": 2,
+      "imgSrc": "/public/images/team-2.png",
+      "name": "Neel Choksi",
+      "title": "CTO",
+      "facebookLink": "https://facebook.com/jane",
+      "twitterLink": "https://twitter.com/jane",
+      "instagramLink": "https://instagram.com/jane"
+    },
+    {
+      "id": 3,
+      "imgSrc": "/public/images/team-3.png",
+      "name": "Abhishek parmar",
+      "title": "CTO",
+      "facebookLink": "https://facebook.com/jane",
+      "twitterLink": "https://twitter.com/jane",
+      "instagramLink": "https://instagram.com/jane"
+    
+    },
+    {
+      "id": 4,
+      "imgSrc":  "/public/images/team-2.png",
+      "name": "Bhargav Shukla",
+      "title": "CTO",
+      "facebookLink": "https://facebook.com/jane",
+      "twitterLink": "https://twitter.com/jane",
+      "instagramLink": "https://instagram.com/jane"
+    },
+    {
+      "id": 5,
+      "imgSrc":"/public/images/team-3.png",
+      "name": "Solanki Uday",
+      "title": "CTO",
+      "facebookLink": "https://facebook.com/jane",
+      "twitterLink": "https://twitter.com/jane",
+      "instagramLink": "https://instagram.com/jane"
+    },
+    {
+      "id": 6,
+      "imgSrc":  "/public/images/Dhruv.png",
+      "name": "Solanki Mitil",
+      "title": "CTO",
+      "facebookLink": "https://facebook.com/jane",
+      "twitterLink": "https://twitter.com/jane",
+      "instagramLink": "https://instagram.com/jane"
+    }
+    
+  ]
+  

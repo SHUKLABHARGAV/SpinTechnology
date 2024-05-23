@@ -1,6 +1,7 @@
 import React from 'react'
 import OurProducts from './components/OurProducts'
 import Breadcrumb from './components/Breadcrumb'
+import Footer from "./components/Footer";
 
 
 const Ourproductweb = () => {
@@ -11,6 +12,7 @@ const Ourproductweb = () => {
       page="Our Products" />
       {/* Breadcrumb */}
     <OurProducts/>
+    <Footer/>
       
     </div>
   )

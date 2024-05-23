@@ -9,7 +9,7 @@ const Footer = () => {
             <div className="row g-5">
                 <div className="col-lg-3 col-md-6">
                     <h5 className="text-white mb-4">Our Office</h5>
-                    <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Spin Technology , New 80 Feet Rd, Ambawadi Phase 4, Udhyog Nagar, Surendranagar, Gujarat 363001</p>
+                    <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Spin Industries , New 80 Feet Rd, Ambawadi Phase 4, Udhyog Nagar, Surendranagar, Gujarat 363001</p>
                     <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+91 9327190323</p>
                     <p className="mb-2"><i className="fa fa-envelope me-3"></i>bhargavshukla483@gmail.com</p>
                     <div className="d-flex pt-3">

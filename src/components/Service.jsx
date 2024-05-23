@@ -4,12 +4,22 @@ import img2 from "./img/service-2.jpg"
 import img3 from "./img/service-3.jpg"
 
 const Service = () => {
-  return (
+    const primary = {
+        color : "#0b6ab2",
+    
+    };
+    const btnprimary = {
+        backgroundColor : "#0b6ab2",
+        color:'white'
+    
+    };
+    return (
+    
     <>
         <div className="container-xxl py-5">
         <div className="container">
             <div className="text-center mx-auto pb-4 wow fadeInUp" data-wow-delay="0.1s"style={{maxWidth:"600px"}}>
-                <p className="fw-medium text-uppercase text-primary mb-2">Our Services</p>
+                <p className="fw-medium text-uppercase   mb-2" style={primary}>Our Services</p>
                 <h1 className="display-5 mb-4">We Provide Best Industrial Services</h1>
             </div>
             <div className="row gy-5 gx-4">
@@ -30,7 +40,7 @@ const Service = () => {
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a className="btn btn-light" href="n">Read More</a>
+                        <a className="btn btn-light" style={btnprimary} href="n">Read More</a>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
@@ -50,7 +60,7 @@ const Service = () => {
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a className="btn btn-light" href="n">Read More</a>
+                        <a className="btn btn-light" style={btnprimary} href="n">Read More</a>
                     </div>
                 </div>
                 <div className="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
@@ -70,7 +80,7 @@ const Service = () => {
                                     lorem sed diam stet diam sed stet.</p>
                             </div>
                         </div>
-                        <a className="btn btn-light" href="6">Read More</a>
+                        <a className="btn btn-light" style={btnprimary} href="6">Read More</a>
                     </div>
                 </div>
             </div>

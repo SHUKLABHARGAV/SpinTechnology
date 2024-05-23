@@ -13,7 +13,7 @@ const OurProducts = () => {
   }, []);
   return (
     <div  className='App' >
-        <div className="row-container">
+        <div className="row-container p-10 " style={{color:'black'}}>
           {images.map((image,index) => (
             
         <DynamicImage 
