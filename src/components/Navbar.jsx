@@ -1,5 +1,4 @@
-/* eslint-disable jsx-a11y/anchor-is-valid */
-import React from 'react'
+ import React from 'react'
  
  
 import {Link} from "react-router-dom"
@@ -45,8 +44,8 @@ const Navbar = () => {
                 <Link to="/Aboutweb" id='Home' className="nav-item nav-link"  >About</Link>
                 <Link to="/Serviceweb" className="nav-item nav-link">Sevice</Link>
                 <Link to="/Ourteamweb" className="nav-item nav-link">Our Team</Link>
-                <Link to="/Ourteamweb" className="nav-item nav-link">Our Products</Link>
-                <Link to="Testimonial" className="nav-item nav-link">TestiNomials</Link>
+                <Link to="/Ourproductweb" className="nav-item nav-link">Our Products</Link>
+                <Link to="/Testimonial" className="nav-item nav-link">TestiNomials</Link>
                 <Link to="/Contactweb" className="nav-item nav-link">Contact</Link>
             </div>
             <a href="t77" className="btn btn-primary px-3 d-none d-lg-block">Get A Quote</a>

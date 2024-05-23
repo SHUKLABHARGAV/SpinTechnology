@@ -712,3 +712,8 @@ h6,
   color: #B0B9AE;
   border-top: 1px solid rgba(255, 255, 255, .1);
 }
+input {
+  margin: 5px;
+  padding: 10px;
+  width: 300px;
+}
