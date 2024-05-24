@@ -49,8 +49,7 @@
     .dynamic-image {
       padding: 0.5%;
     }
-  
-    .dynamic-image img {
+      .dynamic-image img {
       width: 100%;
       height: auto;
     }
