@@ -20,12 +20,15 @@ const OurTeam = () => {
 
     fetchData();
   }, []);
+  const primary = {
+    color:'#0b6ab2'
+  };
   return (
     <>
       <div className="container-xxl py-5">
         <div className="container">
-            <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: "600px;"}}>
-                <p className="fw-medium text-uppercase text-primary mb-2">Our Team</p>
+            <div className="text-center mx-auto wow fadeInUp" data-wow-delay="0.1s" style={{maxWidth: "600px"}}>
+                <p className="fw-medium text-uppercase   mb-2" style={primary}>Our Team</p>
                 <h1 className="display-5 mb-5">Dedicated Team Members</h1>
             </div>
             <div className="row g-4">
