@@ -2,7 +2,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import './product.css'
-const DynamicImage = ({ src, alt, width, height, className,title ,layout }) => {
+const DynamicImage = ({ src, alt, width, height, className,title ,layout ,des}) => {
   return (
    
 
@@ -14,9 +14,11 @@ const DynamicImage = ({ src, alt, width, height, className,title ,layout }) => {
       width={width}
       height={height}
       className={className}
+  
       style={{ width: width, height: height , padding:'1%'}}
       />
       <h2>{title}</h2>
+      <h4>{des}</h4>
       </div>
        
   );
@@ -29,6 +31,7 @@ DynamicImage.propTypes = {
   height: PropTypes.string,
   className: PropTypes.string,
   title: PropTypes.string,
+  des: PropTypes.string,
   layout: PropTypes.string,
  
 };
@@ -38,6 +41,7 @@ DynamicImage.defaultProps = {
   height: 'auto',
   className: '',
   title:'',
+  des:"",
   layout: 'row', // default layout
 };
 

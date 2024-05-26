@@ -1,6 +1,6 @@
 import React from 'react'
-import img1 from "./img/carousel-1.jpg"
-import img2 from "./img/carousel-2.jpg"
+import img1 from "./img/carousel-1.jpeg"
+import img2 from "./img/carousel-2.jpeg"
 
 const Carousel = () => {
   return (
@@ -15,10 +15,10 @@ const Carousel = () => {
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
-                                    <p className="fs-5 fw-medium   text-uppercase animated slideInRight "  >2 Years
+                                    <p className="fs-5 fw-medium   text-uppercase animated slideInRight "  >3 Years
                                         of Working Experience</p>
                                     <h1 className="display-1 text-white mb-5 animated slideInRight">Spindel Manufacturing industry</h1>
-                                    <a href="u" className="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                    <a href="../Ourproductweb" className="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
                                 </div>
                             </div>
                         </div>
@@ -30,11 +30,12 @@ const Carousel = () => {
                         <div className="container">
                             <div className="row justify-content-center">
                                 <div className="col-lg-10 text-start">
-                                    <p className="fs-5 fw-medium  text-uppercase animated slideInRight">25 Years
+                                    <p className="fs-5 fw-medium  text-uppercase animated slideInRight">3 Years
                                         of Working Experience</p>
                                     <h1 className="display-1 text-white mb-5 animated slideInRight">The Best Reliable
                                         Industry Solution</h1>
-                                    <a href="y" className="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
+                                        
+                                    <a href="../Ourproductweb" className="btn btn-primary py-3 px-5 animated slideInRight">Explore More</a>
                                 </div>
                             </div>
                         </div>

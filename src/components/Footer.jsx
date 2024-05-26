@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from "react-router-dom"
-
+// import img1 from "./img/logo 1.jpeg"
 const Footer = () => {
   return (
     <>
@@ -10,8 +10,8 @@ const Footer = () => {
                 <div className="col-lg-3 col-md-6">
                     <h5 className="text-white mb-4">Our Office</h5>
                     <p className="mb-2"><i className="fa fa-map-marker-alt me-3"></i>Spin Industries , New 80 Feet Rd, Ambawadi Phase 4, Udhyog Nagar, Surendranagar, Gujarat 363001</p>
-                    <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+91 9327190323</p>
-                    <p className="mb-2"><i className="fa fa-envelope me-3"></i>bhargavshukla483@gmail.com</p>
+                    <p className="mb-2"><i className="fa fa-phone-alt me-3"></i>+91 9879533443</p>
+                    <p className="mb-2"><i className="fa fa-envelope me-3"></i> spin.ind443@gmail.com</p>
                     <div className="d-flex pt-3">
                         <a className="btn btn-square btn-light rounded-circle me-2" href="n"><i
                                 className="fab fa-twitter"></i></a>

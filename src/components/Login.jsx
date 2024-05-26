@@ -1,9 +1,15 @@
- import React from 'react'
+import React, { useEffect } from 'react';
+ 
  const Login = () => {
+ 
+
+  useEffect(() => {
+    window.location.href = 'http://localhost:1337/admin/auth/login' ,'_blank' ;
+  }, []);
+
+  
    return (
-     <div>
-       <h1>Login</h1>
-     </div>
+   <> </>
    )
  }
  

@@ -9,7 +9,7 @@ const Contactcard = () => {
         const sendEmail = (e) => {
         e.preventDefault();
     
-        emailjs.sendForm('service_5lz6lri', 'template_w9vtipg', form.current, 'xQUMh834MpVUDinnH')
+        emailjs.sendForm('service_4ilhnyc', 'template_vakqw3n', form.current, 'Wz0a-upaGN6c2IWxE')
             .then((result) => {
                 console.log(result.text);
             }, (error) => {

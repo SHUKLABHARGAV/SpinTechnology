@@ -23,7 +23,7 @@ const Navbar = () => {
             <div className="col-lg-6 text-end">
                 <div className="h-100 topbar-right d-inline-flex align-items-center text-white py-2 px-5">
                     <span className="fs-5 fw-bold me-2"><i className="fa fa-phone-alt me-2"></i>Call Us:</span>
-                    <span className="fs-5 fw-bold">+91 9327190323</span>
+                    <span className="fs-5 fw-bold">+91 9879533443</span>
                 </div>
             </div>
         </div>
@@ -32,6 +32,7 @@ const Navbar = () => {
      
     <nav className="navbar navbar-expand-lg bg-white navbar-light sticky-top py-0 pe-5">
         <Link to="/" className="navbar-brand ps-5 me-0">
+ 
             <h1 className="text-white m-0">Spin Industries</h1>
         </Link>
         <button type="button" className="navbar-toggler me-0" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">

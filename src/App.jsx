@@ -20,14 +20,14 @@ function App() {
     <>
       {!isLoginPath && <Navbar />}
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route exact path="/"   element={<Home />} />
         <Route exact path="/Serviceweb" element={<Serviceweb />} />
         <Route exact path="/Aboutweb" element={<Aboutweb />} />
         <Route exact path="/Ourteamweb" element={<Ourteamweb />} />
         <Route exact path="/Contactweb" element={<Contactweb />} />
         <Route exact path="/Ourproductweb" element={<Ourproductweb />} />
         <Route exact path="/Testimonial" element={<Testimonial />} />
-        <Route exact path="/Login" element={<Login />} />
+        <Route exact path="/Login"  element={<Login />} />
 
       </Routes>
     </>

@@ -13,10 +13,10 @@ const Contact = () => {
                             <i className="fa fa-phone-alt fa-2x  " style={{ color:'white'}}></i>
                         </div>
                         <h4 className="mb-3">Phone Number</h4>
-                        <p className="mb-2">+91 9327190323</p>
-                        <p className="mb-4">+91 9327190323</p>
-                        <a className="btn   px-4" style={{ backgroundColor:'#0b6ab2',color:'white'}} href="tel:+0123456789">Call Now <i
-                                className="fa fa-arrow-right ms-2"></i></a>
+                        <p className="mb-2">+91 9879533443</p>
+                        <p className="mb-4">+91 9712433443</p>
+                        <a className="btn   px-4" style={{ backgroundColor:'#0b6ab2',color:'white'}} href="tel:+91 9712433443">Call Now <i
+                                className="fa fa-phone-alt ms-2"></i></a>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
@@ -25,10 +25,10 @@ const Contact = () => {
                             <i className="fa fa-envelope-open fa-2x "></i>
                         </div>
                         <h4 className="mb-3">Email Address</h4>
-                        <p className="mb-2">bhargavshukla483@gmail.com</p>
-                        <p className="mb-4">support@example.com</p>
-                        <a className="btn b  px-4" style={{ backgroundColor:'#0b6ab2',color:'white'}}href="mailto:info@example.com">Email Now <i
-                                className="fa fa-arrow-right ms-2"></i></a>
+                        <p className="mb-2">spin.ind443@gmail.com</p>
+                        <p className="mb-4">spin.ind443@gmail.com</p>
+                        <a className="btn b  px-4" style={{ backgroundColor:'#0b6ab2',color:'white'}}href="mailto:spin.ind443@gmail.com ">Email Now <i
+                                className="fa fa-envelope-open ms-2"></i></a>
                     </div>
                 </div>
                 <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
@@ -37,10 +37,10 @@ const Contact = () => {
                             <i className="fa fa-map-marker-alt fa-2x  "></i>
                         </div>
                         <h4 className="mb-3">Office Address</h4>
-                        <p className="mb-2">Spin Technology , New 80 Feet Rd,</p>
-                        <p className="mb-4"> Ambawadi Phase 4, Udhyog Nagar, Surendranagar, Gujarat 363001</p>
+                        <p className="mb-3">Spin Industries , New 80 Feet Rd,Ambawadi Phase 4, Udhyog Nagar, Surendranagar, Gujarat 363001</p>
+                        {/* <p className="mb-2"> Ambawadi Phase 4, Udhyog Nagar, Surendranagar, Gujarat 363001</p> */}
                         <a className="btn btn-primary px-4" href="https://goo.gl/maps/FsznshxgnULBGgkN9"
-                            target="blank" style={{ backgroundColor:'#0b6ab2',color:'white'}}>Direction <i class="fa fa-arrow-right ms-2"></i></a>
+                            target="blank" style={{ backgroundColor:'#0b6ab2',color:'white'}}>Direction <i class="fa fa fa-map-marker-alt ms-2"></i></a>
                     </div>
                 </div>
             </div>
@@ -68,7 +68,7 @@ const Contact = () => {
                                 </div>
                                 <div className="ms-3" >
                                     <h6>Call Us</h6>
-                                    <input style={{border:"0",backgroundColor:"white"}} type="tel" value="+91 9327190323" disabled/>
+                                    <input style={{border:"0",backgroundColor:"white"}} type="tel" value="+91 9879533443" disabled/>
                                 </div>
                             </div>
                         </div>
@@ -79,7 +79,7 @@ const Contact = () => {
                                 </div>
                                 <div className="ms-3">
                                     <h6>Mail Us</h6>
-                                    <input style={{border:"0",backgroundColor:"white"}} type="email" value="bhargavshukla483@gmail.com" disabled/>
+                                    <input style={{border:"0",backgroundColor:"white"}} type="email" value="spin.ind443@gmail.com" disabled/>
                                      
                                 </div>
                             </div>

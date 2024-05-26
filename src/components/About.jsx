@@ -1,5 +1,5 @@
 import React from 'react'
-import img1 from "./img/about-1.jpg"
+import img1 from "./img/product 7.jpeg"
 import img2 from "./img/about-2.jpg"
 
 const About = () => {
@@ -16,12 +16,10 @@ const About = () => {
             <div className="row g-5">
                 <div className="col-lg-6">
                     <div className="row gx-3 h-100">
-                        <div className="col-6 align-self-start wow fadeInUp" data-wow-delay="0.1s">
+                        <div className=" align-self-start wow fadeInUp" data-wow-delay="0.1s">
                             <img className="img-fluid" alt='w'  src={img1}/>
                         </div>
-                        <div className="col-6 align-self-end wow fadeInDown" data-wow-delay="0.1s">
-                            <img className="img-fluid" alt='w'  src={img2}/>
-                        </div>
+                        
                     </div>
                 </div>
                 <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
@@ -47,22 +45,27 @@ const About = () => {
                         <div className="col-sm-6">
                             <div className="d-flex align-items-center">
                                 <div className="flex-shrink-0 btn-lg-square rounded-circle  " style={bgprimary}>
-                                    <i className="fa fa-envelope-open text-white"></i>
+                                <a className="btn px-0"  href="mailto:spin.ind443@gmail.com ">
+ <i className="fa fa-envelope-open text-white"></i> </a>
                                 </div>
                                 <div className="ms-3">
                                     <p className="mb-2">Email us</p>
-                                    <h5 className="mb-0">info@example.com</h5>
+                                    <a className="btn px-0"  href="mailto:spin.ind443@gmail.com">
+                                    <h5 className="mb-0">spin.ind443@gmail.com</h5>
+                                    </a>
                                 </div>
                             </div>
                         </div>
                         <div className="col-sm-6">
                             <div className="d-flex align-items-center">
                                 <div className="flex-shrink-0 btn-lg-square rounded-circle  " style={bgprimary}>
-                                    <i className="fa fa-phone-alt  text-white"></i>
+                                <a className="btn px-0"   href="tel:+91 9712433443"> <i className="fa fa-phone-alt  text-white"></i></a>   
                                 </div>
-                                <div className="ms-3">
+                                <div className="ms-3"> 
                                     <p className="mb-2">Call us</p>
-                                    <h5 className="mb-0">+012 345 6789</h5>
+                                    <a className="btn px-0"   href="tel:+91 9712433443">
+                                    <h5 className="mb-0">+91  9879533443</h5>
+                                    </a>
                                 </div>
                             </div>
                         </div>

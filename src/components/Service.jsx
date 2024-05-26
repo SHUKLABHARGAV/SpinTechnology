@@ -1,7 +1,7 @@
 import React from 'react'
-import img1 from "./img/service-1.jpg"
-import img2 from "./img/service-2.jpg"
-import img3 from "./img/service-3.jpg"
+import img1 from "./img/product 6.jpeg"
+import img2 from "./img/product 3.jpeg"
+import img3 from "./img/product 7.jpeg"
 
 const Service = () => {
     const primary = {
@@ -32,7 +32,7 @@ const Service = () => {
                         <div className="service-detail">
                             <div className="service-title">
                                 <hr className="w-25"/>
-                                <h3 className="mb-0">Cmc Engineer</h3>
+                                <h3 className="mb-0">TFO SPINDLE</h3>
                                 <hr className="w-25" />
                             </div>
                             <div className="service-text">
@@ -52,7 +52,7 @@ const Service = () => {
                         <div className="service-detail">
                             <div className="service-title">
                                 <hr className="w-25" />
-                                <h3 className="mb-0"> Vmc Engineer</h3>
+                                <h3 className="mb-0">INSERT BOSTER</h3>
                                 <hr class="w-25" />
                             </div>
                             <div className="service-text">
