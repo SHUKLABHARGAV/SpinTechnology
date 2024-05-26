@@ -46,7 +46,21 @@ const OurProducts = (props) => {
     <div className='App' >
        
       <div className="row-container p-10 " style={{ color: 'black' }}>
-        {products.map((product, index) => (
+      {images.map((Image, index) => (
+
+<DynamicImage
+  key={Image.id}
+  src={Image.imageUrl}
+  alt={"P image"}
+  width="300px"
+  height="300px"
+  title={Image.title}
+  // des = {product.description}
+  layout={index % 2 === 0 ? 'row' : 'column'}
+
+/>
+))}
+        {/* {products.map((product, index) => (
 
           <DynamicImage
             key={product.id}
@@ -59,7 +73,7 @@ const OurProducts = (props) => {
             layout={index % 2 === 0 ? 'row' : 'column'}
 
           />
-        ))}
+        ))} */}
       </div>
 
     </div>
